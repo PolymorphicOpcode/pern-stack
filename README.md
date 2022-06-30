@@ -48,8 +48,10 @@ This helps with security so that we don't have to run Nodejs as root.
 
 Edit the nginx config file
 
-```sudo vim /etc/nginx/sites-available/default
 ```
+sudo vim /etc/nginx/sites-available/default
+```
+
 ```
 server {
 ...
