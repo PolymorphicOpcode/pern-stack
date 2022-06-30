@@ -26,4 +26,4 @@ app.listen(port, () => {
 
 4. Create public folder & insert index.html
 
-![alt text](https://github.com/sang-chu/pern-stack/images/amogus.png "Our fully functioning NodeJS & Express server")
+![alt text](https://github.com/sang-chu/pern-stack/raw/main/images/amogus.png "Our fully functioning NodeJS & Express server")
