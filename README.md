@@ -37,7 +37,7 @@ vim public/index.html
 sudo npm install pm2@latest -g
 pm2 start server.js 
 pm2 startup systemd
-sudo env PATH=$PATH:/usr/bin /usr/local/lib/node_modules/pm2/bin/pm2 startup systemd -u cit352 --hp /home/cit352
+sudo env PATH=$PATH:/usr/bin /usr/local/lib/node_modules/pm2/bin/pm2 startup systemd -u `whoami` --hp /home/`whoami`
 pm2 save
 systemctl enable pm2-cit352
 sudo systemctl start pm2-cit352
