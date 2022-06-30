@@ -1,7 +1,7 @@
 # PERN
 ## How to create a PostgreSQL, Express, React, Node.js Stack 
-1. Install NodeJS & NPM Package Manager
-sudo apt install nodejs npm
+1. Install Nginx, NodeJS & NPM Package Manager
+sudo apt install nodejs npm nginx
 
 2. Install Express
 npm install express
@@ -20,6 +20,7 @@ app.get('/', (req, res) => {
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
-})```
+})
+```
 
 4. Create public folder & insert index.html
