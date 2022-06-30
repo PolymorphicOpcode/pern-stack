@@ -2,10 +2,10 @@
 A tutorial written for our Operating Systems class
 ## How to create a PostgreSQL, Express, React, Node.js Stack 
 1. Install Nginx, NodeJS & NPM Package Manager
-sudo apt install nodejs npm nginx
+`sudo apt install nodejs npm nginx`
 
 2. Install Express
-npm install express
+`npm install express`
 
 3. Create Express server
 
