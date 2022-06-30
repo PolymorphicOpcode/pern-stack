@@ -1,2 +1,2 @@
-#PERN
-##How to create a PostgreSQL, Express, React, Node.js Stack 
+# PERN
+## How to create a PostgreSQL, Express, React, Node.js Stack 
