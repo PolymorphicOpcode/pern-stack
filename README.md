@@ -74,3 +74,39 @@ sudo systemctl restart nginx
 ![alt text](https://github.com/sang-chu/pern-stack/raw/main/images/amogus.png "Our fully functioning NodeJS & Express server")
 
 Now we have 2 parts of the stack built, NodeJS & Express, and have incorporated Nginx to safely handle our web traffic.
+
+7. Install PostgreSQL
+
+```
+sudo apt install postgresql postgresql-contrib
+sudo systemctl start postgresql.service
+sudo systemctl enable postgresql.service
+```
+
+We first start the service, then enable it so that it is started upon boot.
+
+```
+sudo -u postgres createuser --interactive
+```
+
+```
+Enter name of role to add: cit352
+Shall the new role be a superuser? (y/n) y
+```
+
+We then create a role called 'cit352', which will administer our databse.
+
+```
+sudo -u postgres createdb cit352
+sudo adduser cit352
+sudo -u cit352 psql -d cit352
+\conninfo
+\q
+```
+
+https://codepen.io/kylewetton/pen/gjjGdX
+https://babeljs.io/repl
+https://www.cssportal.com/scss-to-css/
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/16.4.2/umd/react.production.min.js"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/16.4.2/umd/react.production.min.js"/>
