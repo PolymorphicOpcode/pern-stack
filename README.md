@@ -80,7 +80,7 @@ Then set the nginx configuration and restart the nginx server
 sudo systemctl restart nginx
 ```
 
-![alt text](https://github.com/sang-chu/pern-stack/raw/main/images/amogus.png "Our fully functioning NodeJS & Express server")
+![NodeJS & Express Server](https://github.com/sang-chu/pern-stack/raw/main/images/amogus.png "Our fully functioning NodeJS & Express server")
 
 Now we have 2 parts of the stack built, NodeJS & Express, and have incorporated Nginx to safely handle our web traffic.
 
@@ -133,6 +133,7 @@ Then, add the following external Javascript references to import React.
 
 Now we have a cool snake game being served on our web server!
 
-![alt text](https://raw.githubusercontent.com/sang-chu/pern-stack/main/images/finished.png "Our finished PERN server")
+![finished photo](https://raw.githubusercontent.com/sang-chu/pern-stack/main/images/finished.png "Our finished PERN server")
 
 This implements React.JS, the last part of our PERN stack server.
+![finished gif](https://raw.githubusercontent.com/sang-chu/pern-stack/main/images/restarting.gif)
