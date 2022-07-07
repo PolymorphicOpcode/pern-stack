@@ -134,6 +134,7 @@ Then, add the following external Javascript references to import React.
 Now we have a cool snake game being served on our web server!
 
 This implements React.JS, the last part of our PERN stack server.
+
 ![finished gif](https://raw.githubusercontent.com/sang-chu/pern-stack/main/images/restarting.gif)
 
 ![finished photo](https://raw.githubusercontent.com/sang-chu/pern-stack/main/images/finished.png "Our finished PERN server")
