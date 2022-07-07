@@ -137,3 +137,7 @@ Now we have a cool snake game being served on our web server!
 
 This implements React.JS, the last part of our PERN stack server.
 ![finished gif](https://raw.githubusercontent.com/sang-chu/pern-stack/main/images/restarting.gif)
+
+The services persist across reboot! That's it.
+
+<3
