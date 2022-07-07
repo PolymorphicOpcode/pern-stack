@@ -1,6 +1,9 @@
 # PERN
 A tutorial written for our Operating Systems class
 ## How to create a PostgreSQL, Express, React, Node.js Stack 
+
+We registered an ubuntu server on DigitalOcean, ssh'ed in, and created a user "cit352".
+
 1. Install required packages 
 ```sudo apt install nodejs npm nginx```
 
