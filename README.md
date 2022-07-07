@@ -123,11 +123,13 @@ I added the converted code into <style> html tags in the head, and the Javascrip
 
 Then, add the following external Javascript references to import React.
 
+```
 <script src="https://cdnjs.cloudflare.com/ajax/libs/react/16.4.2/umd/react.production.min.js"/>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/react/16.4.2/umd/react.production.min.js"/>
+```
 
 Now we have a cool snake game being served on our web server!
 
-![alt text](https://github.com/sang-chu/pern-stack/raw/main/images/finished.png "Our fully functioning NodeJS & Express server")
+![alt text](https://raw.githubusercontent.com/sang-chu/pern-stack/main/images/finished.png "Our finished PERN server")
 
 This implements React.JS, the last part of our PERN stack server.
