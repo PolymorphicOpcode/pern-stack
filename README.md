@@ -119,8 +119,10 @@ https://codepen.io/kylewetton/pen/gjjGdX
 
 I then copied the code from this pen to our index.html within the public folder, and converted the Javascript & SCSS respectively to a vanilla format that our server can understand.
 
+```
 https://babeljs.io/repl
 https://www.cssportal.com/scss-to-css/
+```
 
 I added the converted code into <style> html tags in the head, and the Javascript in an inline <script> at the bottom of the body.
 
